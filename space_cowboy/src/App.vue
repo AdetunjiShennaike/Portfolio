@@ -1,14 +1,19 @@
 <template>
   <div id="app">
-    <Navigation />
+    <div class="side-bar" id="sideBar">
+      <Navigation />
+      <SocialMedia />
+    </div>
     <router-view/>
   </div>
 </template>
 <script>
-import Navigation from "@/components/Navigation";
+import Navigation from '@/components/nav/Navigation'
+import SocialMedia from '@/components/nav/SocialMedia'
 export default {
   components: {
-    Navigation
+    Navigation,
+    SocialMedia
   }
 }
 </script>
