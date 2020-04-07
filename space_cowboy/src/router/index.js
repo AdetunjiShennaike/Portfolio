@@ -6,7 +6,9 @@ import Articles from '../views/Articles.vue'
 import Contact from '../views/Contact.vue'
 import Projects from '../views/Projects.vue'
 import Skills from '../views/Skills.vue'
+import Awards from '../views/Awards.vue'
 // Components
+import AwardShow from '../components/AwardShow.vue'
 import SkillShow from '../components/SkillShow.vue'
 import ProjectShow from '../components/ProjectShow.vue'
 import ArticleShow from '../components/ArticleShow.vue'
@@ -55,6 +57,17 @@ const routes = [
     path: '/skills/:id',
     name: 'SkillShow',
     component: SkillShow,
+    props: true
+  },
+  {
+    path: '/awards',
+    name: 'Awards',
+    component: Awards
+  },
+  {
+    path: '/awards/:id',
+    name: 'AwardShow',
+    component: AwardShow,
     props: true
   },
   {
