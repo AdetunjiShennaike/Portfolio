@@ -1,10 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+//Views 
 import Home from '../views/Home.vue'
 import Articles from '../views/Articles.vue'
 import Contact from '../views/Contact.vue'
 import Projects from '../views/Projects.vue'
 import Skills from '../views/Skills.vue'
+//Components
+import SkillShow from '../components/SkillShow.vue'
+import ProjectShow from '../components/ProjectShow.vue'
+import ArticleShow from '../components/ArticleShow.vue'
 
 Vue.use(VueRouter)
 
@@ -20,6 +25,12 @@ const routes = [
     component: Articles
   },
   {
+    path: '/articles/:id',
+    name: 'ArticleShow',
+    component: ArticleShow,
+    props: true
+  },
+  {
     path: '/contact',
     name: 'Contact',
     component: Contact
@@ -30,9 +41,21 @@ const routes = [
     component: Projects
   },
   {
+    path: '/projects/:id',
+    name: 'ProjectShow',
+    component: ProjectShow,
+    props: true
+  },
+  {
     path: '/skills',
     name: 'Skills',
     component: Skills
+  },
+  {
+    path: '/skills/:id',
+    name: 'SkillShow',
+    component: SkillShow,
+    props: true
   },
   {
     path: '/about',
