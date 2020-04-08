@@ -3,6 +3,8 @@
     <nav class="sideBar" id="sideBar">
       <Navigation />
       <SocialMedia />
+      Icons made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+      Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
     </nav>
     <div class="Page">
       <router-view/>
@@ -43,6 +45,9 @@ export default {
   top: 0;
   z-index: 3;
   min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
 }
 #nav {
   display: flex;
