@@ -3,8 +3,8 @@
     <nav class="sideBar" id="sideBar">
       <Navigation />
       <SocialMedia />
-      Icons made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-      Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+      Icons by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a>
+      <br/>Icons by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
     </nav>
     <div class="Page">
       <router-view/>
