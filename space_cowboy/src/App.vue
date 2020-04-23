@@ -47,6 +47,8 @@ export default {
   min-height: 600px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   white-space: nowrap;
 }
 #nav {
@@ -60,5 +62,9 @@ export default {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-evenly;
+}
+.navIcon {
+  height: auto;
+  width: 35px;
 }
 </style>
