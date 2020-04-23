@@ -3,11 +3,11 @@
     <nav class="sideBar" id="sideBar">
       <Navigation />
       <SocialMedia />
-      Icons by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a>
-      <br/>Icons by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
-    </nav>
+     </nav>
     <div class="Page">
       <router-view/>
+      Icons by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a>
+      <br/>Icons by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
     </div>
   </div>
 </template>
